@@ -1,0 +1,813 @@
+/* .logo {
+    width: 200px;
+    height: 60px;
+    margin-left: 50px;
+}
+
+.nav_bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 3px 1px #ccc;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 0px;
+    background-color: #fff;
+    width: 100%;
+    z-index: 1;
+}
+
+
+.list ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 12px;
+    margin-top: 30px;
+
+}
+
+.list ul li a {
+    text-decoration: none;
+    color: #000;
+
+}
+
+.btn-primary {
+    margin-right: 50px;
+    width: 150px;
+}
+
+.btn-primary:hover {
+    padding: 10px;
+    width: 160px;
+}
+
+.list ul li a:hover {
+    border-bottom: 2px solid rgb(139, 230, 4);
+}
+
+
+.Firstcontainer{
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 55px;
+}
+
+
+.img{
+    text-align: right;
+}
+.pngimg{
+    text-align: center;
+    
+    
+
+}
+.homeservicesheading{
+    text-align: center;
+}
+.donationboxltr{
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+.count{
+    background-color: gray;
+    padding: 15px;
+    padding-right: 0px;
+    border: 3px solid;
+    border-radius: 5px;
+    letter-spacing: 1.1px;
+}
+.secondnavbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 8%;
+    margin-right: 8%;
+    flex-wrap: wrap;
+    
+}
+.input{
+    border-top: 0px !important;
+    padding: 13px;
+    width: 180px;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.png_container{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-right: 6%;
+    margin-right: 6%;
+    box-sizing: border-box;
+}
+.main_png{
+    background-color: rgb(227, 250, 193);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+.donetecardcontainer{
+    display: flex;
+    justify-content:  space-between;
+    align-items: center;
+    margin-left: 6%;
+    margin-right: 6%;
+    flex-wrap: wrap;
+}
+
+.maindonetecard{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap
+    align-itmes: center;
+    position: relative;
+    cursor: pointer;
+     transition: 1s;
+}
+
+
+.donate_text{
+       position: absolute;
+       left: 5px;
+       bottom: 5px;
+}
+
+.donate_text p{
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.donate_textbutton{
+    width: 340px;
+    padding: 8px;
+    background-color: rgb(139, 230, 4);
+    border-radius: 8px;
+}
+
+.donate_text a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.other_project{
+ height: 480px;
+ width: 500px;
+ border-top-left-radius: 20%;
+ border: 1px solid gray ;
+}
+
+.project{
+    margin-top:  0px: !important
+    alinge  
+} */
+
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #fff;
+}
+
+.logo {
+    width: 200px;
+    height: 60px;
+    margin-left: 50px;
+}
+
+.nav_bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 3px 1px #ccc;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 0px;
+    background-color: #fff;
+    width: 100%;
+    z-index: 1;
+}
+
+
+.list ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 12px;
+    margin-top: 30px;
+
+}
+
+.list ul li a {
+    text-decoration: none;
+    color: #000;
+
+}
+
+.btn-primary {
+    margin-right: 50px;
+    width: 150px;
+}
+
+.btn-primary:hover {
+    padding: 10px;
+    width: 160px;
+}
+
+.list ul li a:hover {
+    border-bottom: 2px solid rgb(139, 230, 4);
+}
+
+.img {
+    padding: 50px;
+    padding-right: 0px;
+}
+
+.image {
+    height: 520px;
+    width: 520px;
+
+}
+
+
+.first_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 60px;
+}
+
+.first_text {
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 55px;
+}
+
+.color {
+    color: rgb(139, 230, 4);
+}
+
+.second_text {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.para {
+    font-size: 18px;
+}
+
+.typing_animation {
+    color: rgb(38, 105, 250);
+}
+
+.text_container button {
+    padding: 18px 50px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.second_navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 8%;
+    margin-right: 8%;
+    flex-wrap: wrap;
+}
+
+.count {
+    background-color: grey;
+    padding: 15px;
+    padding-right: 0px;
+    border: 3px solid;
+    border-radius: 5px;
+    letter-spacing: 1.1px;
+
+}
+
+.input {
+    border-top: 0px !important;
+    padding: 13px;
+    width: 180px;
+    overflow: hidden;
+    position: relative;
+}
+
+.main_box a {
+    transition: 0.5s;
+    text-decoration: none;
+    color: #000;
+    padding: 19px;
+    border-radius: 10px;
+    letter-spacing: 1.2px;
+}
+
+.main_box a:hover {
+    background-color: gray;
+    color: #fff;
+    font-weight: bolder;
+    transform: matrix(1.1);
+}
+
+.main_box1 a {
+    transition: 0.5s;
+    text-decoration: none;
+    color: #fff;
+    padding: 19px 25px;
+    border-radius: 10px;
+    background-color: rgb(139, 230, 4);
+    letter-spacing: 1.2px;
+}
+
+.main_box1 a:hover {
+    padding: 23px 23px;
+    color: #fff;
+    font-weight: bolder;
+    transform: matrix(1.1);
+}
+
+.ramzan {
+    text-align: center;
+}
+
+.ramzan img {
+    height: 600px;
+    width: 88%;
+}
+
+.png_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+.main_png {
+    background-color: rgb(227, 250, 193);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 10px;
+    height: 170px;
+    width: 170px;
+    margin: 5px;
+}
+
+.png {
+    position: absolute;
+    top: 15px;
+}
+
+.name {
+    position: absolute;
+    bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.donate_card_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 6%;
+    margin-right: 6%;
+    flex-wrap: wrap;
+}
+
+.main_donate_card {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.donate_image {
+    height: 300px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+.main_donate_card:hover {
+    transform: scale(1.1);
+    opacity: 85%;
+}
+
+.donate_text {
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+}
+
+.donate_text p {
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.donate_text button {
+    width: 340px;
+    padding: 8px;
+    background-color: rgb(139, 230, 4);
+    border-radius: 8px;
+}
+
+.donate_text a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.container_other_project {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+.other_project {
+    height: 480px;
+    width: 500px;
+    border-top-left-radius: 20%;
+    border: 1px solid gray;
+}
+
+.other_png_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+}
+
+.other_project_text {
+    margin-left: 25px;
+}
+
+.other_project_text .p {
+    color: rgb(38, 105, 250);
+    font-weight: bold;
+}
+
+.other_png {
+    height: 40px;
+    width: 40px;
+}
+
+.project {
+    margin-top: 0px !important;
+    margin: 25px;
+    font-size: 35px;
+}
+
+.counter_Container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(62, 126, 243);
+    height: 430px;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+.count_png {
+    background-color: #fff;
+    height: 130px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+}
+
+.count_img {
+    height: 65px;
+    width: 65px;
+}
+
+.count_text h2 {
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin: 10px 0px;
+    font-size: 36px;
+}
+
+.count_text p {
+    margin: 0px;
+    padding: 0px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+.counter_part {
+    text-align: center;
+}
+
+.testimonials {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+    color: rgb(139, 230, 4);
+}
+
+.what {
+    text-align: center;
+
+}
+
+
+.Arshad {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+
+.name_color {
+    color: rgb(38, 105, 250);
+    margin-top: 10px;
+}
+
+.testimonial_container {
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 60px 70px;
+    margin-top: 60px;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+.testimonial_text {
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.angle_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.angle i {
+    background-color: #ccc;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6px;
+    font-size: 22px;
+}
+
+.angle_color i {
+    background-color: rgb(139, 230, 4) !important;
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6px;
+    color: #fff;
+    font-size: 22px;
+}
+
+
+.madia_gallary_container {
+    margin: 0px 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.madia_card_container {
+    background-color: #ccc;
+    width: 250px;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 15px;
+    margin: 10px;
+    cursor: pointer;
+    opacity: 85%;
+}
+
+.madia_card_container:hover {
+    opacity: 100%;
+}
+
+.download {
+    position: absolute;
+    top: 80px;
+    left: 90px;
+}
+
+.media_text p,
+.media_text span {
+    margin: 0px;
+    padding: 0px;
+    line-height: 25px;
+}
+
+.media_text p {
+    margin: 0px 10px;
+    font-weight: 600;
+    margin-top: 13px;
+}
+
+.media_text span {
+    font-size: 14px;
+    color: #464545;
+    margin: 0px 10px;
+}
+
+.new_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+.news_card {
+    background-color: #ccc;
+    width: 260px;
+    padding-bottom: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.news_card a {
+    background-color: rgb(139, 230, 4);
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.news_text {
+    margin: 25px 20px;
+}
+
+.news_text p {
+    margin-top: 20px;
+    color: #000;
+    font-weight: 600;
+}
+
+.news_text i {
+    padding: 12px 25px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.giude {
+    background-color: rgb(63, 75, 241);
+    margin: 20px 6%;
+    text-align: center;
+    padding: 40px 0px;
+    padding-bottom: 45px;
+}
+
+.giude h2 {
+    color: #fff;
+    font-weight: bolder;
+    margin: 20px;
+    font-size: 38px;
+}
+
+.giude_input {
+    width: 40%;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    background-color: rgb(63, 75, 241);
+}
+
+.giude_input::placeholder {
+    color: #ccc;
+    font-size: 15px;
+}
+
+.sub_btn {
+    width: 40%;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    border: 1px solid #fff;
+}
+.footer_first_container{
+    background-color: #464545;
+    padding: 40px 0px;
+}
+.Footer_main_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 0px 6%;
+    
+}
+
+.footer_div ul li {
+    list-style-type: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+.h5{
+    font-size: 25px !important;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+}
+.li{
+    line-height: 25px;
+}
+.contact{
+    margin-bottom: 12px;
+}
+.footer_div ul li a {
+    text-decoration: none;
+    color: #fff;
+    line-height: 45px;
+    font-size: 15px;
+}
+
+.footer_icon{
+    margin: 20px;
+
+}
+
+.facebook i{
+    color: #fff;
+    background-color: rgb(55, 55, 238);
+    border-radius: 10px;
+    padding: 12px 20px;
+    font-size: 30px;
+    margin: 0px 5px;
+}
+
+.twitter i{
+    color: #fff;
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 30px;
+    margin: 0px 5px;
+}
+.youtube i{
+    color: #fff;
+    background-color: rgb(230, 48, 48);
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 30px;
+    margin: 0px 5px;
+}
+.hr{
+    color: #fff;
+    font-weight: 600;
+    margin: 0px 6%;
+}
+
+.ip_address{
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+}
+
+.copyright{
+    text-align: center;
+    color: #fff;
+
+}
